@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (4.8.0)
+  - CircleProgressView (1.2.0)
+  - ReachabilitySwift (5.0.0)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+  - SnapKit (4.2.0)
+  - SwiftMessages (7.0.1):
+    - SwiftMessages/App (= 7.0.1)
+  - SwiftMessages/App (7.0.1)
+
+DEPENDENCIES:
+  - Alamofire (= 4.8.0)
+  - CircleProgressView (~> 1.2)
+  - ReachabilitySwift (~> 5.0)
+  - SDWebImage (= 4.4.3)
+  - SnapKit
+  - SwiftMessages
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CircleProgressView
+    - ReachabilitySwift
+    - SDWebImage
+    - SnapKit
+    - SwiftMessages
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  CircleProgressView: 6b5b091d59dc5e5d2fda84e637a40498cdc39937
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftMessages: b577dc7043be8b299857ab35bb663dbff6483bd0
+
+PODFILE CHECKSUM: 04dbcfaaa48609ad1e5350a9f992c179d4132959
+
+COCOAPODS: 1.8.4

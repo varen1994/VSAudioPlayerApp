@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		580061C224EBCC2600357D7C /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580061C124EBCC2600357D7C /* CustomNavigationController.swift */; };
+		58B1527E24E979510091D689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1527D24E979510091D689 /* AppDelegate.swift */; };
+		58B1528024E979510091D689 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1527F24E979510091D689 /* SceneDelegate.swift */; };
+		58B1528224E979510091D689 /* MusicPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1528124E979510091D689 /* MusicPlayerController.swift */; };
+		58B1528524E979510091D689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B1528324E979510091D689 /* Main.storyboard */; };
+		58B1528724E979520091D689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B1528624E979520091D689 /* Assets.xcassets */; };
+		58B1528A24E979520091D689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B1528824E979520091D689 /* LaunchScreen.storyboard */; };
+		58B1529824E97FA80091D689 /* MusicPlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1529624E97FA80091D689 /* MusicPlayerCell.swift */; };
+		58B1529924E97FA80091D689 /* MusicPlayerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B1529724E97FA80091D689 /* MusicPlayerCell.xib */; };
+		58B1529C24E980900091D689 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1529B24E980900091D689 /* Extensions.swift */; };
+		58F9117F24EA17FF0073BFA8 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F9117E24EA17FF0073BFA8 /* ApiManager.swift */; };
+		58F9118124EA18120073BFA8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F9118024EA18120073BFA8 /* Constants.swift */; };
+		58F9118324EA1A450073BFA8 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F9118224EA1A450073BFA8 /* Helper.swift */; };
+		58F9118524EA1D730073BFA8 /* SongListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F9118424EA1D730073BFA8 /* SongListModel.swift */; };
+		58F9118824EA4E5E0073BFA8 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F9118724EA4E5E0073BFA8 /* AudioPlayer.swift */; };
+		58F9118B24EA527F0073BFA8 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F9118A24EA527F0073BFA8 /* PlayerView.swift */; };
+		58F9118D24EA882B0073BFA8 /* WrapperSingleSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F9118C24EA882B0073BFA8 /* WrapperSingleSong.swift */; };
+		58F9119024EAD03E0073BFA8 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F9118F24EAD03E0073BFA8 /* PlayerViewController.swift */; };
+		58F9119224EAE0360073BFA8 /* Question 1 Answer.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 58F9119124EAE0360073BFA8 /* Question 1 Answer.rtf */; };
+		7B35BF8076636CC2D6D78059 /* Pods_WebloomSolutionsSysTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AD4C5214211CA4E3FFEFF7 /* Pods_WebloomSolutionsSysTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27922BF867732818BE8C3869 /* Pods-WebloomSolutionsSysTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebloomSolutionsSysTest.release.xcconfig"; path = "Target Support Files/Pods-WebloomSolutionsSysTest/Pods-WebloomSolutionsSysTest.release.xcconfig"; sourceTree = "<group>"; };
+		37C067F505A476496B706883 /* Pods-WebloomSolutionsSysTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebloomSolutionsSysTest.debug.xcconfig"; path = "Target Support Files/Pods-WebloomSolutionsSysTest/Pods-WebloomSolutionsSysTest.debug.xcconfig"; sourceTree = "<group>"; };
+		580061C124EBCC2600357D7C /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		58B1527A24E979510091D689 /* WebloomSolutionsSysTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebloomSolutionsSysTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B1527D24E979510091D689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58B1527F24E979510091D689 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		58B1528124E979510091D689 /* MusicPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerController.swift; sourceTree = "<group>"; };
+		58B1528424E979510091D689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58B1528624E979520091D689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58B1528924E979520091D689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58B1528B24E979520091D689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B1529624E97FA80091D689 /* MusicPlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerCell.swift; sourceTree = "<group>"; };
+		58B1529724E97FA80091D689 /* MusicPlayerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicPlayerCell.xib; sourceTree = "<group>"; };
+		58B1529B24E980900091D689 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		58F9117E24EA17FF0073BFA8 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		58F9118024EA18120073BFA8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		58F9118224EA1A450073BFA8 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		58F9118424EA1D730073BFA8 /* SongListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListModel.swift; sourceTree = "<group>"; };
+		58F9118724EA4E5E0073BFA8 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		58F9118A24EA527F0073BFA8 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		58F9118C24EA882B0073BFA8 /* WrapperSingleSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapperSingleSong.swift; sourceTree = "<group>"; };
+		58F9118F24EAD03E0073BFA8 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		58F9119124EAE0360073BFA8 /* Question 1 Answer.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Question 1 Answer.rtf"; sourceTree = "<group>"; };
+		C4AD4C5214211CA4E3FFEFF7 /* Pods_WebloomSolutionsSysTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebloomSolutionsSysTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B1527724E979510091D689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B35BF8076636CC2D6D78059 /* Pods_WebloomSolutionsSysTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36319904A4DCC59E72C032C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37C067F505A476496B706883 /* Pods-WebloomSolutionsSysTest.debug.xcconfig */,
+				27922BF867732818BE8C3869 /* Pods-WebloomSolutionsSysTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		580061C024EBCBF600357D7C /* CustomNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				580061C124EBCC2600357D7C /* CustomNavigationController.swift */,
+			);
+			path = CustomNavigationController;
+			sourceTree = "<group>";
+		};
+		58B1527124E979510091D689 = {
+			isa = PBXGroup;
+			children = (
+				58B1527C24E979510091D689 /* WebloomSolutionsSysTest */,
+				58B1527B24E979510091D689 /* Products */,
+				36319904A4DCC59E72C032C0 /* Pods */,
+				B6035D4A938DCE88CD2479C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		58B1527B24E979510091D689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58B1527A24E979510091D689 /* WebloomSolutionsSysTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B1527C24E979510091D689 /* WebloomSolutionsSysTest */ = {
+			isa = PBXGroup;
+			children = (
+				58B1529A24E980770091D689 /* Helper */,
+				58B1529324E97A2B0091D689 /* Model */,
+				58B1529224E97A1E0091D689 /* View */,
+				58B1529124E97A0C0091D689 /* Controller */,
+				58B1527D24E979510091D689 /* AppDelegate.swift */,
+				58B1527F24E979510091D689 /* SceneDelegate.swift */,
+				58B1528624E979520091D689 /* Assets.xcassets */,
+				58B1528B24E979520091D689 /* Info.plist */,
+				58F9119124EAE0360073BFA8 /* Question 1 Answer.rtf */,
+			);
+			path = WebloomSolutionsSysTest;
+			sourceTree = "<group>";
+		};
+		58B1529124E97A0C0091D689 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				580061C024EBCBF600357D7C /* CustomNavigationController */,
+				58F9118E24EAD0130073BFA8 /* PlayerViewController */,
+				58B1529424E97F7C0091D689 /* MusicPlayerController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		58B1529224E97A1E0091D689 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58F9118924EA52650073BFA8 /* PlayerView */,
+				58B1528324E979510091D689 /* Main.storyboard */,
+				58B1528824E979520091D689 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		58B1529324E97A2B0091D689 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58F9118424EA1D730073BFA8 /* SongListModel.swift */,
+				58F9118C24EA882B0073BFA8 /* WrapperSingleSong.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		58B1529424E97F7C0091D689 /* MusicPlayerController */ = {
+			isa = PBXGroup;
+			children = (
+				58B1529524E97F840091D689 /* Cells */,
+				58B1528124E979510091D689 /* MusicPlayerController.swift */,
+			);
+			path = MusicPlayerController;
+			sourceTree = "<group>";
+		};
+		58B1529524E97F840091D689 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				58B1529624E97FA80091D689 /* MusicPlayerCell.swift */,
+				58B1529724E97FA80091D689 /* MusicPlayerCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		58B1529A24E980770091D689 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				58B1529B24E980900091D689 /* Extensions.swift */,
+				58F9117E24EA17FF0073BFA8 /* ApiManager.swift */,
+				58F9118024EA18120073BFA8 /* Constants.swift */,
+				58F9118224EA1A450073BFA8 /* Helper.swift */,
+				58F9118724EA4E5E0073BFA8 /* AudioPlayer.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		58F9118924EA52650073BFA8 /* PlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				58F9118A24EA527F0073BFA8 /* PlayerView.swift */,
+			);
+			path = PlayerView;
+			sourceTree = "<group>";
+		};
+		58F9118E24EAD0130073BFA8 /* PlayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				58F9118F24EAD03E0073BFA8 /* PlayerViewController.swift */,
+			);
+			path = PlayerViewController;
+			sourceTree = "<group>";
+		};
+		B6035D4A938DCE88CD2479C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4AD4C5214211CA4E3FFEFF7 /* Pods_WebloomSolutionsSysTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B1527924E979510091D689 /* WebloomSolutionsSysTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B1528E24E979520091D689 /* Build configuration list for PBXNativeTarget "WebloomSolutionsSysTest" */;
+			buildPhases = (
+				2D1FB43C5883201F41F83E5E /* [CP] Check Pods Manifest.lock */,
+				58B1527624E979510091D689 /* Sources */,
+				58B1527724E979510091D689 /* Frameworks */,
+				58B1527824E979510091D689 /* Resources */,
+				83B1F8EE77CF5D005476AD62 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebloomSolutionsSysTest;
+			productName = WebloomSolutionsSysTest;
+			productReference = 58B1527A24E979510091D689 /* WebloomSolutionsSysTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B1527224E979510091D689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Varender;
+				TargetAttributes = {
+					58B1527924E979510091D689 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 58B1527524E979510091D689 /* Build configuration list for PBXProject "WebloomSolutionsSysTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58B1527124E979510091D689;
+			productRefGroup = 58B1527B24E979510091D689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B1527924E979510091D689 /* WebloomSolutionsSysTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58B1527824E979510091D689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F9119224EAE0360073BFA8 /* Question 1 Answer.rtf in Resources */,
+				58B1528A24E979520091D689 /* LaunchScreen.storyboard in Resources */,
+				58B1528724E979520091D689 /* Assets.xcassets in Resources */,
+				58B1529924E97FA80091D689 /* MusicPlayerCell.xib in Resources */,
+				58B1528524E979510091D689 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D1FB43C5883201F41F83E5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebloomSolutionsSysTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83B1F8EE77CF5D005476AD62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebloomSolutionsSysTest/Pods-WebloomSolutionsSysTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebloomSolutionsSysTest/Pods-WebloomSolutionsSysTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebloomSolutionsSysTest/Pods-WebloomSolutionsSysTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B1527624E979510091D689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F9118D24EA882B0073BFA8 /* WrapperSingleSong.swift in Sources */,
+				58B1529C24E980900091D689 /* Extensions.swift in Sources */,
+				58B1528224E979510091D689 /* MusicPlayerController.swift in Sources */,
+				58B1527E24E979510091D689 /* AppDelegate.swift in Sources */,
+				58F9118B24EA527F0073BFA8 /* PlayerView.swift in Sources */,
+				58F9118524EA1D730073BFA8 /* SongListModel.swift in Sources */,
+				580061C224EBCC2600357D7C /* CustomNavigationController.swift in Sources */,
+				58B1529824E97FA80091D689 /* MusicPlayerCell.swift in Sources */,
+				58F9119024EAD03E0073BFA8 /* PlayerViewController.swift in Sources */,
+				58F9118124EA18120073BFA8 /* Constants.swift in Sources */,
+				58F9117F24EA17FF0073BFA8 /* ApiManager.swift in Sources */,
+				58F9118824EA4E5E0073BFA8 /* AudioPlayer.swift in Sources */,
+				58B1528024E979510091D689 /* SceneDelegate.swift in Sources */,
+				58F9118324EA1A450073BFA8 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58B1528324E979510091D689 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B1528424E979510091D689 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58B1528824E979520091D689 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B1528924E979520091D689 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58B1528C24E979520091D689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58B1528D24E979520091D689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B1528F24E979520091D689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37C067F505A476496B706883 /* Pods-WebloomSolutionsSysTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WebloomSolutionsSysTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NoOrganization.WebloomSolutionsSysTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58B1529024E979520091D689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27922BF867732818BE8C3869 /* Pods-WebloomSolutionsSysTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WebloomSolutionsSysTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NoOrganization.WebloomSolutionsSysTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B1527524E979510091D689 /* Build configuration list for PBXProject "WebloomSolutionsSysTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B1528C24E979520091D689 /* Debug */,
+				58B1528D24E979520091D689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B1528E24E979520091D689 /* Build configuration list for PBXNativeTarget "WebloomSolutionsSysTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B1528F24E979520091D689 /* Debug */,
+				58B1529024E979520091D689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B1527224E979510091D689 /* Project object */;
+}
